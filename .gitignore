@@ -1,1 +1,36 @@
+# ===== Fortran build artifacts =====
+*.o
+*.mod
+*.smod
+*.a
+*.so
+*.dll
+*.exe
+/build/
+fortran/build/
+
+# ===== Logs & outputs =====
+*.log
+*.out
+*.dat
+*.csv
+*.vtk
+*.mat
+*.npy
+*.npz
+
+# ===== OS clutter =====
+.DS_Store
+Thumbs.db
+
+# ===== Unreal Engine (do not commit) =====
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.idea/
+*.sln
+*.xcodeproj
+*.VC.db
 
